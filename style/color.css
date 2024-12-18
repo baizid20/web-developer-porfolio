@@ -11,6 +11,7 @@
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
+    color:rgb(24, 24, 24);
     font-variation-settings:
       "wdth" 100;
 }
@@ -23,9 +24,16 @@
     color:white;
 } 
 
+.bakground-color{
+     background-color: #FD6E0A;
+}  
 
 .btn{
-    background-color: #FD6E0A;
+   
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: small;
+    font-size: 40px;
 }
 
 
@@ -34,17 +42,13 @@
                       /* nav-links,Text & button */
 
 .naav-h1{
-  font-size: 45px;
+  font-size: 70px;
   font-weight:900;
 }
 
 .nav-btn{
     padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: small;
-    border: 2px solid black;
-    font-size: 20px;
+   
 }
 
 nav>ul li{
@@ -53,7 +57,7 @@ nav>ul li{
 
 nav>ul li a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 40px;
 }
 nav>ul{
     display: flex;
@@ -65,10 +69,62 @@ nav{
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    margin: 10%;
+    margin: 10px 120px;
 }
 
           /* <!--1st navbar style ENDED HERE!!!--> */
+          /* <!-- This a banner section style--> */
+.banner-grettings{
+    font-size: 55px;
+    color: rgb(71, 71, 71);
+}
+.banner-big-font{
+    font-size: 70px;
+    
+}
+.banner-text{
+   font-size: small;
+   color: rgb(71, 71, 71);
+   margin-bottom: 30px;
+}
+.banner-cv-btn{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding:15px 40px;
+    border-radius: 5px;
+}
+.banner-contact-btn{
+    color:#FD6E0A;
+    font-weight:bold;
+    padding:15px 40px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.div-banner-one{
+    width: 450px;
+    height:500px;
+    margin-left: 10%;
+}
+.banner-img{
+    width:520px;
+    height: 630px;
+    margin-left: 135%;
+   
+}
 
+.main-banner-div{
+    
+    display: flex;
+    align-items: center;
+   
+}
 
+.main-header-div{
+    background-image: url('../images/header_bg.png') , url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position:bottom right , top left;
+    background-color: rgb(250, 237, 214);
+    
+}
 
