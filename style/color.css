@@ -39,6 +39,13 @@
 
          /* <!-- This is the 1st navbar style--> */
 
+         .main-header-div{
+            background-image: url('../images/header_bg.png') , url('../images/developer.png');
+            background-repeat: no-repeat;
+            background-position:bottom right , top left;
+            background-color: rgb(255, 248, 243);
+        }        
+
                       /* nav-links,Text & button */
 
 .naav-h1{
@@ -119,12 +126,42 @@ nav{
     align-items: center;
    
 }
+              /* Banner Section ended here!!! */
 
-.main-header-div{
-    background-image: url('../images/header_bg.png') , url('../images/developer.png');
-    background-repeat: no-repeat;
-    background-position:bottom right , top left;
-    background-color: rgb(250, 237, 214);
-    
+              /* Main section style --->*/
+.main-class{
+    margin: 10% 15% ;
 }
 
+               /* /* About section style start /* */
+
+.about{
+    background-color: rgb(255, 248, 243);
+   
+}
+
+.about-div-inner-box{
+    padding:12%;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+}
+
+.about h1{
+    text-align: center;
+    font-size: 45px;
+}
+.about-me-paragraph{
+    font-size: 25px;
+  
+}
+.about-group{
+    display: flex;
+    justify-content: space-around;
+}
+.about-description{
+     
+}
+.about-title{
+    font-weight: bolder;
+   text-align: center;
+}
